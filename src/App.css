@@ -1,0 +1,214 @@
+body {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to bottom right,#e0d7f9,#f0f8ff 40%,#e0d7f9);
+
+  
+}
+html, body {
+  height: 100%; 
+  overflow-x: hidden; 
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.student-header{
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  margin-bottom:5px;
+  position: relative;
+  top: 70px;
+  right: 860px;
+}
+.profile-header {
+  display: flex;
+  align-items: center; 
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 600px;
+  position: relative;
+  right:29px;
+}
+
+.profile-picture {
+  width: 50px; 
+  height: 50px;
+  border-radius: 50%; 
+  margin-right: 10px; 
+  object-fit: cover; 
+}
+
+.profile-name {
+  font-family: Arial, sans-serif;
+  font-size: 1.2em; 
+  color: #333; 
+}
+
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 2px solid #ccc; 
+  border-radius: 10px; 
+  padding: 5px; 
+   
+  background-color: white; 
+  margin-left:70px;
+  position: relative;
+  left: 60px;
+}
+
+.search-button {
+  background: none;  
+  border: none;  
+  cursor: pointer; 
+}
+
+.search-input {
+  border: none; 
+  outline: none; 
+  padding: 5px; 
+  margin-left: 5px; 
+  flex: 1; 
+}
+
+
+.search-input:focus {
+  outline: none; 
+}
+
+
+.search-button:hover {
+  opacity: 0.7; 
+}
+
+
+
+.profile {
+  font-weight: bold;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-right: 175px;
+  justify-content: flex-end;
+}
+
+.filter-buttons button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  background: rgba(200, 200, 200, 0.1);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.filter-buttons .active {
+  background-color: #6c63ff;
+  color: white;
+}
+
+.card-container {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center;
+  max-width: 1000px;  
+  gap: 25px; 
+ 
+}
+
+
+.student-card {
+  width: 340px;
+  height:180px;
+  padding: 15px;
+  flex: 0 1 calc(20% - 40px); 
+  background:rgba(0,0,0,0.13);
+  background:rgba(200,200,200,0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  flex-direction: column; 
+  align-items: flex-start;
+  position:relative; 
+  left:70px;
+ 
+}
+
+.profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 180px;
+  
+}
+
+.text1{
+  margin-bottom:150px;
+  flex-grow:1;
+  position:relative;
+  bottom: 55px;
+}
+.sname{
+  position: relative;
+  bottom: 65px;
+  right:30px;
+}
+
+.srole{
+  position: relative;
+  bottom: 85px;
+  right: 25px;
+  color: #505050;
+}
+
+.text2{
+  margin-bottom:150px;
+  flex-grow:1;
+  position:relative;
+  bottom:340px;
+}
+
+
+
+.card-buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+
+.block-button,
+.details-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+.block-button {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: black;
+}
+
+.details-button {
+  background-color: black;
+  color: white;
+}
+
+
